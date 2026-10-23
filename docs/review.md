@@ -1,5 +1,7 @@
 # Private review checkpoint — 2026-10-23
 
+> Historical pre-publication checkpoint. The owner subsequently authorized public source publication on 2026-10-23; see the current [source scope](public-scope.md). This checkpoint and its evidence retain their original review-time status, including `publicReleaseApproved: false`. Source publication does not change device playback or fidelity verification status.
+
 The component is extracted from fixed main `d815abb34bbb3847ca2fec95df3096059ea7dda0`, under Apache-2.0, with fresh history and no Camp backend dependency. It remains a private review candidate.
 
 | Area | Evidence / status |

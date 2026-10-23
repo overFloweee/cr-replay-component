@@ -20,7 +20,7 @@ The offline loader/bootstrap approach and native replay research have FirstLight
 
 The native bridge's runtime logic is unchanged from the fixed main file, including its terminal tower fix; only an attribution header was added. Its calibration targets one exact restored core. Preserving its source or Apache attribution does not establish compatibility with other binary versions.
 
-The proposed source release includes reverse-engineering implementation details: fixed core addresses, structure offsets, short instruction signatures used to validate hook targets, inline-hook machinery, offline event handling and generated smali patches. Excluding complete game binaries does not mean that all source is generic platform glue or that no game-derived byte sequences appear in it. Attribution and the source map record the traceable lineage; they are not a determination of rights in every signature, generated fragment or underlying technique.
+The source release includes reverse-engineering implementation details: fixed core addresses, structure offsets, short instruction signatures used to validate hook targets, inline-hook machinery, offline event handling and generated smali patches. Excluding complete game binaries does not mean that all source is generic platform glue or that no game-derived byte sequences appear in it. Attribution and the source map record the traceable lineage; they are not a determination of rights in every signature, generated fragment or underlying technique.
 
 ## Extraction changes
 
@@ -40,4 +40,4 @@ The proposed source release includes reverse-engineering implementation details:
 | `org.json:json:20180813` | JVM test runtime, pinned SHA-256 in test driver | Downloaded only into ignored build output; its upstream JSON license includes the good-not-evil clause, so this is not represented as Apache-licensed component source |
 | Game APK/core/rules/visual data | Local playback inputs and derivatives | None in source Git or Git history |
 
-The Apache-2.0 grant covers source that can be licensed by its contributors and applicable Apache third-party code. It permits commercial use under its terms; there is no added noncommercial restriction. Game materials remain subject to their owners' rights. A public source release still needs a separate decision; no public APK, materials download service, public CI artifact or modified-client release is approved by this private review.
+The Apache-2.0 grant covers source that can be licensed by its contributors and applicable Apache third-party code. It permits commercial use under its terms; there is no added noncommercial restriction. Game materials remain subject to their owners' rights. The owner authorized public source publication on 2026-10-23. This authorization covers source, tools and documentation; it does not approve a public APK, materials download service, public CI artifact or modified-client release.
