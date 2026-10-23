@@ -1,0 +1,7 @@
+PASS: 新场景/竞技场/塔兵及进化卡牌保留，未知定义/版本/身份/指令拒绝
+PASS: dynamic exact pairs, preserved old rules, format/engine/command guards and malformed catalogs
+规则加载检查通过：29 项（含全部登记版本连续切换及失败清理）
+PASS: actual 2GiB-1 / 2GiB / 2GiB+1 expanded streams and rejected traversal/executable paths; JVM evidence only
+terminalResultChecks=12
+PASS: stable archives across timestamps/order/permissions, content hashes, compression, code exclusion, changed content
+PASS: synthetic host checks; Android playback is recorded separately

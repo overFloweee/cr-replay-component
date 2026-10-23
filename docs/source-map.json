@@ -1,0 +1,218 @@
+{
+  "sourceCommit": "d815abb34bbb3847ca2fec95df3096059ea7dda0",
+  "files": [
+    {
+      "source": "app/src/main/java/cn/crhistory/player/ReplayBootstrap.java",
+      "path": "android/cn/crhistory/player/ReplayBootstrap.java",
+      "sourceSha256": "b788369a4ab73313da9a87b306281510a7b979034b13612c1446af146e2403e5",
+      "modifications": "Standalone paths, local host/resource/diagnostic dependencies or test extraction; see docs/provenance.md and initial commit diff.",
+      "extractedSha256": "896461b7cd8ac650d51ae37637967ec093808d998c84f1ededc8dc6081263b37",
+      "modified": true
+    },
+    {
+      "source": "app/src/main/java/cn/crhistory/player/ReplayCompatibility.java",
+      "path": "android/cn/crhistory/player/ReplayCompatibility.java",
+      "sourceSha256": "9173e677a61dba2bf63308cff4e04d1ecdb138cd82aeb8659d4b83aed59039cd",
+      "extractedSha256": "9173e677a61dba2bf63308cff4e04d1ecdb138cd82aeb8659d4b83aed59039cd",
+      "modified": false
+    },
+    {
+      "source": "app/src/main/java/cn/crhistory/player/ReplayRules.java",
+      "path": "android/cn/crhistory/player/ReplayRules.java",
+      "sourceSha256": "9981b8b00504ad0d07df1710d1bcc54972f6c59f7b63b99950f94a8cfa12e00f",
+      "extractedSha256": "9981b8b00504ad0d07df1710d1bcc54972f6c59f7b63b99950f94a8cfa12e00f",
+      "modified": false
+    },
+    {
+      "source": "app/src/main/java/cn/crhistory/player/ReplayEntry.java",
+      "path": "android/cn/crhistory/player/ReplayEntry.java",
+      "sourceSha256": "dc5b3b3d52d4d6e737f1188afd40a603affe3644a403abda2cbb90abeb254f8f",
+      "modifications": "Standalone paths, local host/resource/diagnostic dependencies or test extraction; see docs/provenance.md and initial commit diff.",
+      "extractedSha256": "4baf39acec9693a621fd0b482aa0136530242efa86fceba68cfaa41e88371e38",
+      "modified": true
+    },
+    {
+      "source": "app/src/main/java/cn/crhistory/player/ReplayRun.java",
+      "path": "android/cn/crhistory/player/ReplayRun.java",
+      "sourceSha256": "f4222defb46ab23600603b9fec2bf3d4f7b027ebc73f52f57d0e9259596a319d",
+      "modifications": "Standalone paths, local host/resource/diagnostic dependencies or test extraction; see docs/provenance.md and initial commit diff.",
+      "extractedSha256": "679609e62828f1afd855d8c70f2a9629a9e8f896dcc5004087682198d02c053d",
+      "modified": true
+    },
+    {
+      "source": "app/src/main/java/cn/crhistory/player/ExternalAssets.java",
+      "path": "android/cn/crhistory/player/ExternalAssets.java",
+      "sourceSha256": "d3819868077460667d937bc721c0d07c1ebd7c8abe24b73a55f262c33f0c8683",
+      "modifications": "Standalone paths, local host/resource/diagnostic dependencies or test extraction; see docs/provenance.md and initial commit diff.",
+      "extractedSha256": "6a594a49499d0ab5274d455296ae3683279f9728470d1850ecb38ea8966a9206",
+      "modified": true
+    },
+    {
+      "source": "app/src/main/java/cn/crhistory/app/ReplayResourcePack.java",
+      "path": "android/cn/crhistory/player/ReplayResourcePack.java",
+      "sourceSha256": "dcbb578cb3a3c6c89823516fabd2bbbe944873238c2043480aac80fe7e6f0eff",
+      "modifications": "Standalone paths, local host/resource/diagnostic dependencies or test extraction; see docs/provenance.md and initial commit diff.",
+      "extractedSha256": "a135b27e6e4db55740cc8da1ce486d70848c788ef1ec7949ed9728bd9243e5a3",
+      "modified": true
+    },
+    {
+      "source": "tools/single-app/official_core.py",
+      "path": "tools/official_core.py",
+      "sourceSha256": "dd0f77cf628c9397733c435033d2168e941c7b42aff5280bf872a0aed57f6ae0",
+      "modifications": "Standalone paths, local host/resource/diagnostic dependencies or test extraction; see docs/provenance.md and initial commit diff.",
+      "extractedSha256": "b4d7e12606e9f4b33b53035277311eba487d95c847ae1dd593f368c37085c2e2",
+      "modified": true
+    },
+    {
+      "source": "tools/single-app/official_engine.py",
+      "path": "tools/official_engine.py",
+      "sourceSha256": "ff0cd82af719f779ee1dba6c202cf752772607d04f375dffac186a1d5c953ec7",
+      "modifications": "Standalone paths, local host/resource/diagnostic dependencies or test extraction; see docs/provenance.md and initial commit diff.",
+      "extractedSha256": "696e3006f856d428c4b427399c362b4b8aa642dcfbf3cd45655b7d98d5328441",
+      "modified": true
+    },
+    {
+      "source": "tools/single-app/replay_visuals.py",
+      "path": "tools/replay_visuals.py",
+      "sourceSha256": "01eb82210351fc62585649ad2a6c42bf7cb65dbc6576d445d755450a2711609c",
+      "modifications": "Standalone paths, local host/resource/diagnostic dependencies or test extraction; see docs/provenance.md and initial commit diff.",
+      "extractedSha256": "99598c84df7da65afa074700c9c421ddc917133157a980a8dadc3de1fa95adae",
+      "modified": true
+    },
+    {
+      "source": "tools/single-app/replay_rules.py",
+      "path": "tools/replay_rules.py",
+      "sourceSha256": "91404fcc7c04ad23bce1794db08408612a8ca8603660335d208fd43e663e7a03",
+      "extractedSha256": "91404fcc7c04ad23bce1794db08408612a8ca8603660335d208fd43e663e7a03",
+      "modified": false
+    },
+    {
+      "source": "tools/single-app/resource_archive.py",
+      "path": "tools/resource_archive.py",
+      "sourceSha256": "497c9995d16d820f979a480ab38c138b7f0ed561635e83e86b772b0042cc52ae",
+      "extractedSha256": "497c9995d16d820f979a480ab38c138b7f0ed561635e83e86b772b0042cc52ae",
+      "modified": false
+    },
+    {
+      "source": "scripts/replay_content.py",
+      "path": "tools/replay_content.py",
+      "sourceSha256": "437e85c417351d88ca7f10e7f8ba487618181935e3bfa80790e9a1976f9d2598",
+      "modifications": "Standalone paths, local host/resource/diagnostic dependencies or test extraction; see docs/provenance.md and initial commit diff.",
+      "extractedSha256": "105cce3b47c911983e386d817decd8cf26d1c90ce6e19dc54ab909c6c61c7c93",
+      "modified": true
+    },
+    {
+      "source": "replay-player/vendor/official/replay_bridge.cpp",
+      "path": "native/replay_bridge.cpp",
+      "sourceSha256": "88ec706caf47cd1b07077a0e3c94c6a6aeadf3fb4537f889694e9fe2e8789d58",
+      "modifications": "Attribution header only; native logic is identical to fixed main.",
+      "extractedSha256": "d399ccd3eb108b8f36f2d5e9487e0dc805a40763cc4b26908771e230ee0223ae",
+      "modified": true
+    },
+    {
+      "source": "replay-player/vendor/official/supported_engine.json",
+      "path": "metadata/supported_engine.json",
+      "sourceSha256": "07cf2aee57b42d8d4d9e062aaec99d5e76cacaacecd3fb3fb6323eeea60a45fa",
+      "extractedSha256": "07cf2aee57b42d8d4d9e062aaec99d5e76cacaacecd3fb3fb6323eeea60a45fa",
+      "modified": false
+    },
+    {
+      "source": "replay-player/vendor/official/rules_registry.json",
+      "path": "metadata/rules_registry.json",
+      "sourceSha256": "37e1cdee755d5e815945bec90c6daa7ab044f31c763a9ca5f40764829152ca8f",
+      "extractedSha256": "37e1cdee755d5e815945bec90c6daa7ab044f31c763a9ca5f40764829152ca8f",
+      "modified": false
+    },
+    {
+      "source": "replay-player/vendor/official/rules_aliases.json",
+      "path": "metadata/rules_aliases.json",
+      "sourceSha256": "0fb496b9cd10a0a711eebfe39e8131eff63c4380152d4cb2c8198724236c732d",
+      "extractedSha256": "6941944809b0082ce1c019411dccde0d25f2f06a824918f613c1422e853112f8",
+      "modified": true
+    },
+    {
+      "source": "replay-player/vendor/official/public_resources.json",
+      "path": "metadata/public_resources.json",
+      "sourceSha256": "94c6c1b42a0c0446513ab07592a31fe0175588c3e509348c43d7f8d51e45467a",
+      "extractedSha256": "c892c4755dbb1d0786bb946c4dca574a1bcfd42695f1b52bb48cbad5e688f83c",
+      "modified": true
+    },
+    {
+      "source": "verify/replay-followup-terminal/check_result.py",
+      "path": "tests/check_result.py",
+      "sourceSha256": "34b20081a7925818126e12dbfbf19b29a9057954dd5a48fc3025de6c3d10e86d",
+      "modifications": "Standalone paths, local host/resource/diagnostic dependencies or test extraction; see docs/provenance.md and initial commit diff.",
+      "extractedSha256": "bb4084b3af6f060687f65ce38909977745db4488153eea7ebc2ea820220af719",
+      "modified": true
+    },
+    {
+      "source": "verify/replay-compatibility/CompatibilityCheck.java",
+      "path": "tests/CompatibilityCheck.java",
+      "sourceSha256": "78aadf424576636ede212713c2ab532772c9a00597a47c8f27f0a0920bca7453",
+      "modifications": "Standalone paths, local host/resource/diagnostic dependencies or test extraction; see docs/provenance.md and initial commit diff.",
+      "extractedSha256": "819d9db22f61a5daa68901b8a87ff30f3bb2d7258d0eb9afeae8efbd27f11f3a",
+      "modified": true
+    },
+    {
+      "source": "verify/replay-compatibility/DynamicCheck.java",
+      "path": "tests/DynamicCheck.java",
+      "sourceSha256": "583b5342f55b4386e93fce6ba1f35c32bfa2fd3441c09f67fbaf89ab83525b35",
+      "extractedSha256": "583b5342f55b4386e93fce6ba1f35c32bfa2fd3441c09f67fbaf89ab83525b35",
+      "modified": false
+    },
+    {
+      "source": "verify/replay-rules/RulesCheck.java",
+      "path": "tests/RulesCheck.java",
+      "sourceSha256": "13f6361d34abda887c7a84a7af08d5bc62c3b5a3f21c97cc900dff94437eee4f",
+      "extractedSha256": "13f6361d34abda887c7a84a7af08d5bc62c3b5a3f21c97cc900dff94437eee4f",
+      "modified": false
+    },
+    {
+      "source": "verify/replay-resources/PackBoundaryCheck.java",
+      "path": "tests/PackBoundaryCheck.java",
+      "sourceSha256": "0341a58e1b2ca72e4b6f85b2a2d01665fa0d4ecd8e6ce920c34ddce9b0958dc7",
+      "modifications": "Standalone paths, local host/resource/diagnostic dependencies or test extraction; see docs/provenance.md and initial commit diff.",
+      "extractedSha256": "8ff748bd1e749ece62dbdc130b9d61093c0084bb911da4d5da78db204d456e0f",
+      "modified": true
+    },
+    {
+      "source": "replay-player/vendor/firstlight/LICENSE",
+      "path": "LICENSE",
+      "sourceSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "extractedSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "modified": false
+    },
+    {
+      "source": "replay-player/vendor/firstlight/NOTICE",
+      "path": "licenses/FirstLight-NOTICE",
+      "sourceSha256": "1d304a6d3243fd6629e2127903729eba05f930669a9e318a674ad62b90cf43ba",
+      "extractedSha256": "1d304a6d3243fd6629e2127903729eba05f930669a9e318a674ad62b90cf43ba",
+      "modified": false
+    },
+    {
+      "source": "replay-player/vendor/firstlight/ORIGIN.json",
+      "path": "licenses/FirstLight-ORIGIN.json",
+      "sourceSha256": "0cb8bcbe30060b24f09db3e059899ec91a6a813db43d4d05d765b0b702ba352f",
+      "extractedSha256": "0cb8bcbe30060b24f09db3e059899ec91a6a813db43d4d05d765b0b702ba352f",
+      "modified": false
+    },
+    {
+      "source": "tools/single-app/build-proof.py",
+      "path": "tools/host_patch.py",
+      "sourceSha256": "641de0ced9ddd3f1fcc511903689fe098bffba10f3d6db68ccc33861a1a02453",
+      "extraction": "selected fragments; adapted for standalone use",
+      "modifications": "Standalone paths, local host/resource/diagnostic dependencies or test extraction; see docs/provenance.md and initial commit diff.",
+      "extractedSha256": "5bbee490f49cb16a820c999b1a514097f56306563c2845fda52f5480ce964926",
+      "modified": true
+    },
+    {
+      "source": "verify/replay-resources/ArchiveCheck.py",
+      "path": "tests/check_archive.py",
+      "sourceSha256": "e4d62cb0802a235f5b1142a91fbaf480379449c3ea9b919cbf6387bb7eacb07e",
+      "extraction": "selected fragments; adapted for standalone use",
+      "modifications": "Standalone paths, local host/resource/diagnostic dependencies or test extraction; see docs/provenance.md and initial commit diff.",
+      "extractedSha256": "51e6b1c5fe4c9799bc9638d07ebb7702ae829aba092462f6e621672c9b371918",
+      "modified": true
+    }
+  ]
+}

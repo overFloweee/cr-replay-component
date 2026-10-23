@@ -1,0 +1,238 @@
+{
+  "scope": "all staged source blobs for the initial private commit; before this generated audit report",
+  "files": 44,
+  "bytes": 197732,
+  "findings": [],
+  "checks": [
+    "excluded artifact extensions and output directories",
+    "UTF-8 and maximum 1MiB per file",
+    "private-key/token/credential-value patterns",
+    "absolute home paths"
+  ],
+  "limitations": [
+    "Pattern scanning is not a legal opinion or a proof of absence of every possible secret.",
+    "Runtime inputs and generated APK/pack were excluded, not approved for distribution."
+  ],
+  "inventory": [
+    {
+      "path": ".gitignore",
+      "bytes": 44,
+      "sha256": "31867df665504d4bfee1d3f6c8cf7b6d4fbb492574333e4ebff4cb86147804c4"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1044,
+      "sha256": "e944fdbcdd87988c204cc7cd71766f9533ab00aaa66814f4d1468b6086e109c5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4728,
+      "sha256": "ecf62f301ab32e1c803ce999f499dbbaad4e89e14eb207c01e2f899bb4b3fe35"
+    },
+    {
+      "path": "android/cn/crhistory/player/ExampleActivity.java",
+      "bytes": 2469,
+      "sha256": "7e54227a988ed4149f1b8271eb91405e9235901ce16f023632470a581227581e"
+    },
+    {
+      "path": "android/cn/crhistory/player/ExternalAssets.java",
+      "bytes": 6738,
+      "sha256": "6a594a49499d0ab5274d455296ae3683279f9728470d1850ecb38ea8966a9206"
+    },
+    {
+      "path": "android/cn/crhistory/player/LocalResources.java",
+      "bytes": 4200,
+      "sha256": "e6cfb4063a09dd8025d1243539b9dc462e216e75689bba880629a61d3ff04a5b"
+    },
+    {
+      "path": "android/cn/crhistory/player/ReplayBootstrap.java",
+      "bytes": 18246,
+      "sha256": "896461b7cd8ac650d51ae37637967ec093808d998c84f1ededc8dc6081263b37"
+    },
+    {
+      "path": "android/cn/crhistory/player/ReplayCompatibility.java",
+      "bytes": 2009,
+      "sha256": "9173e677a61dba2bf63308cff4e04d1ecdb138cd82aeb8659d4b83aed59039cd"
+    },
+    {
+      "path": "android/cn/crhistory/player/ReplayEntry.java",
+      "bytes": 2964,
+      "sha256": "4baf39acec9693a621fd0b482aa0136530242efa86fceba68cfaa41e88371e38"
+    },
+    {
+      "path": "android/cn/crhistory/player/ReplayResourcePack.java",
+      "bytes": 5393,
+      "sha256": "a135b27e6e4db55740cc8da1ce486d70848c788ef1ec7949ed9728bd9243e5a3"
+    },
+    {
+      "path": "android/cn/crhistory/player/ReplayRules.java",
+      "bytes": 5257,
+      "sha256": "9981b8b00504ad0d07df1710d1bcc54972f6c59f7b63b99950f94a8cfa12e00f"
+    },
+    {
+      "path": "android/cn/crhistory/player/ReplayRun.java",
+      "bytes": 16202,
+      "sha256": "679609e62828f1afd855d8c70f2a9629a9e8f896dcc5004087682198d02c053d"
+    },
+    {
+      "path": "docs/compatibility.md",
+      "bytes": 2088,
+      "sha256": "7ded6195fa7ce23a8d0ed4de53bc59f5032b7914aa023c072349b4554a29d0a6"
+    },
+    {
+      "path": "docs/evidence/build-proof.json",
+      "bytes": 3088,
+      "sha256": "bddb39a7b284a4c42e66f5d04f10b76516b9ec056ed274e3e30ab410f11a5ce0"
+    },
+    {
+      "path": "docs/evidence/host-checks.txt",
+      "bytes": 609,
+      "sha256": "c8249b97e7e9b6e01d28baa310abcf1dff6b6efff7b551eb607bde517fc5fc9c"
+    },
+    {
+      "path": "docs/evidence/source-comparison.json",
+      "bytes": 920,
+      "sha256": "9c811c895719f10f54f85bb6686274913ccb57371bba31c18dc36b67465fec2f"
+    },
+    {
+      "path": "docs/materials.md",
+      "bytes": 2133,
+      "sha256": "4484c5eec218ee760459880c6b4d61086dba3e4eff72b2fa4ee266cd6370287d"
+    },
+    {
+      "path": "docs/provenance.md",
+      "bytes": 6546,
+      "sha256": "61015d2b091be82ff881083131145c571276d5da9e6b43954e99ae2bb9bdcab2"
+    },
+    {
+      "path": "docs/review.md",
+      "bytes": 2975,
+      "sha256": "0f1ab982e8ecb393ad164986fecf978faf5a46cba9ad89663ac941325d1ac4ed"
+    },
+    {
+      "path": "docs/source-map.json",
+      "bytes": 11787,
+      "sha256": "3f2a5c92bf25cd7217c3c0fbf59fa1ab69b6a25e51702dc10265afd059f8d209"
+    },
+    {
+      "path": "example/AndroidManifest.xml",
+      "bytes": 1398,
+      "sha256": "f0a37064e6e6e876720e949f504dadfdad9f18c3d32413a910047a8e43da97b5"
+    },
+    {
+      "path": "licenses/FirstLight-NOTICE",
+      "bytes": 1191,
+      "sha256": "1d304a6d3243fd6629e2127903729eba05f930669a9e318a674ad62b90cf43ba"
+    },
+    {
+      "path": "licenses/FirstLight-ORIGIN.json",
+      "bytes": 331,
+      "sha256": "0cb8bcbe30060b24f09db3e059899ec91a6a813db43d4d05d765b0b702ba352f"
+    },
+    {
+      "path": "metadata/public_resources.json",
+      "bytes": 346,
+      "sha256": "c892c4755dbb1d0786bb946c4dca574a1bcfd42695f1b52bb48cbad5e688f83c"
+    },
+    {
+      "path": "metadata/rules_aliases.json",
+      "bytes": 233,
+      "sha256": "6941944809b0082ce1c019411dccde0d25f2f06a824918f613c1422e853112f8"
+    },
+    {
+      "path": "metadata/rules_registry.json",
+      "bytes": 894,
+      "sha256": "37e1cdee755d5e815945bec90c6daa7ab044f31c763a9ca5f40764829152ca8f"
+    },
+    {
+      "path": "metadata/supported_engine.json",
+      "bytes": 1977,
+      "sha256": "07cf2aee57b42d8d4d9e062aaec99d5e76cacaacecd3fb3fb6323eeea60a45fa"
+    },
+    {
+      "path": "native/replay_bridge.cpp",
+      "bytes": 14293,
+      "sha256": "d399ccd3eb108b8f36f2d5e9487e0dc805a40763cc4b26908771e230ee0223ae"
+    },
+    {
+      "path": "tests/CompatibilityCheck.java",
+      "bytes": 8480,
+      "sha256": "819d9db22f61a5daa68901b8a87ff30f3bb2d7258d0eb9afeae8efbd27f11f3a"
+    },
+    {
+      "path": "tests/DynamicCheck.java",
+      "bytes": 3199,
+      "sha256": "583b5342f55b4386e93fce6ba1f35c32bfa2fd3441c09f67fbaf89ab83525b35"
+    },
+    {
+      "path": "tests/PackBoundaryCheck.java",
+      "bytes": 2546,
+      "sha256": "8ff748bd1e749ece62dbdc130b9d61093c0084bb911da4d5da78db204d456e0f"
+    },
+    {
+      "path": "tests/RulesCheck.java",
+      "bytes": 3704,
+      "sha256": "13f6361d34abda887c7a84a7af08d5bc62c3b5a3f21c97cc900dff94437eee4f"
+    },
+    {
+      "path": "tests/check.py",
+      "bytes": 5652,
+      "sha256": "f27b066c30dfc4df4c7c23d7232c22350d9d6ea54b78a289319fbfaa46179455"
+    },
+    {
+      "path": "tests/check_archive.py",
+      "bytes": 3600,
+      "sha256": "51e6b1c5fe4c9799bc9638d07ebb7702ae829aba092462f6e621672c9b371918"
+    },
+    {
+      "path": "tests/check_result.py",
+      "bytes": 4507,
+      "sha256": "bb4084b3af6f060687f65ce38909977745db4488153eea7ebc2ea820220af719"
+    },
+    {
+      "path": "tools/build.py",
+      "bytes": 6078,
+      "sha256": "6d26a0b49686edf2642df6ca01519145f76897c890480b62c2137190f32164cc"
+    },
+    {
+      "path": "tools/host_patch.py",
+      "bytes": 3417,
+      "sha256": "5bbee490f49cb16a820c999b1a514097f56306563c2845fda52f5480ce964926"
+    },
+    {
+      "path": "tools/official_core.py",
+      "bytes": 4102,
+      "sha256": "b4d7e12606e9f4b33b53035277311eba487d95c847ae1dd593f368c37085c2e2"
+    },
+    {
+      "path": "tools/official_engine.py",
+      "bytes": 7520,
+      "sha256": "696e3006f856d428c4b427399c362b4b8aa642dcfbf3cd45655b7d98d5328441"
+    },
+    {
+      "path": "tools/replay_content.py",
+      "bytes": 4004,
+      "sha256": "105cce3b47c911983e386d817decd8cf26d1c90ce6e19dc54ab909c6c61c7c93"
+    },
+    {
+      "path": "tools/replay_rules.py",
+      "bytes": 3068,
+      "sha256": "91404fcc7c04ad23bce1794db08408612a8ca8603660335d208fd43e663e7a03"
+    },
+    {
+      "path": "tools/replay_visuals.py",
+      "bytes": 3832,
+      "sha256": "99598c84df7da65afa074700c9c421ddc917133157a980a8dadc3de1fa95adae"
+    },
+    {
+      "path": "tools/resource_archive.py",
+      "bytes": 2562,
+      "sha256": "497c9995d16d820f979a480ab38c138b7f0ed561635e83e86b772b0042cc52ae"
+    }
+  ]
+}

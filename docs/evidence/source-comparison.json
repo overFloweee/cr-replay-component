@@ -1,0 +1,23 @@
+{
+  "upstreamCommit": "3ade158c52bf33de3ffcea600ce380946b7de0d8",
+  "files": {
+    "firstlight-tree.json": "d742dea8b0817219618bd761a357b44bafc959aeb43aec0c1abb8b5922bb3349",
+    "firstlight-offline_build.py": "43adcd161558852ac18b0b2650c759e0fbb2bdaa94e3ed000e08f8f3e44b9160",
+    "firstlight-cr_replay_probe.cpp": "8ec2b7dd568ab6f646a7d608372d5f042362d025def2be28657e4b4e3b6b2354",
+    "firstlight-LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  "limitedComparison": {
+    "official_core.py": {
+      "longestExactLineBlockVsUpstreamOfflineBuild": 2,
+      "notProofOfIndependentAuthorship": true
+    },
+    "official_engine.py": {
+      "longestExactLineBlockVsUpstreamOfflineBuild": 2,
+      "notProofOfIndependentAuthorship": true
+    },
+    "replay_visuals.py": {
+      "longestExactLineBlockVsUpstreamOfflineBuild": 2,
+      "notProofOfIndependentAuthorship": true
+    }
+  }
+}

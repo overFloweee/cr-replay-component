@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.crreplay.example" android:versionCode="1" android:versionName="0.1.0">
+  <uses-sdk android:minSdkVersion="30" android:targetSdkVersion="35"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  <application android:name="com.supercell.titan.TitanApplication" android:label="Replay Component" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:extractNativeLibs="true" android:debuggable="true" android:allowBackup="false" android:enableOnBackInvokedCallback="false">
+    <activity android:name="cn.crhistory.player.ExampleActivity" android:exported="true">
+      <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+    </activity>
+    <activity android:name="cn.crhistory.player.ReplayEntry" android:exported="false" android:process=":replay" android:screenOrientation="portrait" android:configChanges="orientation|screenSize|keyboardHidden"/>
+    <activity android:name="com.supercell.clashroyale.GameApp" android:exported="false" android:process=":replay" android:screenOrientation="portrait" android:configChanges="orientation|screenSize|keyboardHidden"/>
+  </application>
+</manifest>

@@ -1,0 +1,30 @@
+{
+  "38.4.3": {
+    "files": 527,
+    "inventorySha256": "27b1654715cdaddc9f02dd85da2bc64cb5abd92a245d1a039544cfabd2410e8d"
+  },
+  "38.4.5": {
+    "files": 527,
+    "inventorySha256": "3444014798caffaa10911bfd4405581da1ecd2fa00dc8472601dd7c2b6be8c05"
+  },
+  "38.4.6": {
+    "files": 527,
+    "inventorySha256": "8dc7746bbdda2c6ea54f6c5a8726ba2049c45ba7a2406c80eaa782b38a88cc33"
+  },
+  "38.4.8": {
+    "files": 527,
+    "inventorySha256": "8834bb2f80cc8ab49f277ecc918f0b6c89aec838be2d53bf95ae5f0922c1aec6"
+  },
+  "38.4.9": {
+    "files": 527,
+    "inventorySha256": "f88e9b81ef799d2e76778277137e171d395f859dd046e8109d31dd55adf2a881"
+  },
+  "38.4.10": {
+    "files": 527,
+    "inventorySha256": "b9b40e8df4470caba3b1fd5fe8f217dd58654739612eb2c9be33f56ec178faef"
+  },
+  "38.4.11": {
+    "files": 527,
+    "inventorySha256": "2d9a8d8fb38424a7d23c3e0adb6989736e7b267b6a9e468f0be834df6df229aa"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "repository": "https://github.com/Jaasssoooonnnnn/FirstLight_CR",
+  "commit": "3ade158c52bf33de3ffcea600ce380946b7de0d8",
+  "source_apk_sha256": "122128931a5e32afe60c21cb4d463c406cbe52074e0b36dee3635f8c3f1558d5",
+  "upstream_apk_hash_matches": false,
+  "libg_sha256_matches": true,
+  "update_fingerprint_sha256_matches": true
+}

@@ -1,0 +1,38 @@
+{
+  "engineId": "cn-38.4.2-content-38.4.5-bridge1",
+  "engineVersion": "38.4.2",
+  "runtimeContentVersion": "38.4.5",
+  "sourceApk": "materials/apks/cr-cn-38.4.2.apk",
+  "sourceApkSha256": "504b3e9bcfc597b22c99c1aabf932cbeb50db654acd61dca2dc5cfb6dfd3de52",
+  "sourceLibSha256": "c6b2482a2f1fbd2e15c99df7fb18ba3d5596b77b3a81930d3638241a3c37fe55",
+  "inputDirectory": "materials/game-assets/replay-engine-cn-38.4.2-38.4.5",
+  "inputs": {
+    "runtime-rx.bin": "affc35473f5e748fc328b0fde908e61a4a8e0c6550737983f7bd92670741e153",
+    "runtime-dynsym.bin": "9a4fd72e94bdfe1e0f5ba379c8c489737e87434e871c15dd1907a90a14060a23",
+    "runtime-exports.json": "6d923b813f5f13d2097ca4177a2aeda38f07c399af87c048b339600e7ff7050a",
+    "content-update.tar": "e7875b183f6323a537fcfbcc51dd51b2cdf961563fc32c0b8198ceefe7e61d14",
+    "historical-content-38.4.3.tar": "36120c02663409653bdc8a68dca5aa215d8a56359d7f1d6228e0d84e1bfcfd7f",
+    "content-rules-38.4.6.tar": "cadf1679a058288720529f306608ae2dc9d175e88983611b384d8d597db36d6f",
+    "content-rules-38.4.8.tar": "51857e98a9c0421251a62760157edcfd53e76cc285a558bda1e8b234b62a0965",
+    "content-rules-38.4.9.tar": "113ad5c21d3787421580b17d158ed9dda3fcdfeea387e32d4ce359a91e74d1ad",
+    "content-rules-38.4.10.tar": "ed629dfb5d60228f042721b0288fe59ccfea8faa4001cd56d42bdb3c13785e98",
+    "content-rules-38.4.11.tar": "fdaab697a62610edac07ff239de15d15809302c54e67ad78e0af6eba7d789e87"
+  },
+  "coreSha256": "fe89f0eaf708e7dc270f971d06bdf36d99ac11c2478d370a9ddfd6025e2fd93b",
+  "coreBytes": 30559184,
+  "historicalContent": {
+    "version": "38.4.3",
+    "fingerprint": "fd9d54a87f61044239e5c12f17b2faf046446e01",
+    "verifiedLogicFiles": 527
+  },
+  "additionalContent": {
+    "version": "38.4.6",
+    "fingerprint": "644eb3f1e718797d6978c59d43173d9c19c37958",
+    "verifiedLogicFiles": 527
+  },
+  "candidateContent": {
+    "version": "38.4.11",
+    "fingerprint": "707d13dfbf1d0c497ce50a3634943d31b5875c41",
+    "compatibilityReady": false
+  }
+}

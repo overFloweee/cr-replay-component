@@ -1,0 +1,21 @@
+CR Replay Component
+Copyright 2026 overFloweee and contributors
+
+Licensed under the Apache License, Version 2.0. See LICENSE.
+
+Includes source extracted and adapted from cr-battle-history main commit
+d815abb34bbb3847ca2fec95df3096059ea7dda0. Changes include an independent
+local Android host, local material preparation, local diagnostics,
+standalone build paths and synthetic test drivers.
+
+The native replay integration builds on the FirstLight CR research lineage.
+Applicable FirstLight attribution is retained in licenses/FirstLight-NOTICE
+and licenses/FirstLight-ORIGIN.json. See docs/provenance.md for scope.
+
+Third-party game binaries, resources, runtime dumps, real replay captures,
+and modified game clients are not part of the licensed source distribution.
+Their owners retain their rights. A locally built APK contains third-party
+game material and is not approved for redistribution by this repository.
+
+This project is not affiliated with, endorsed by, or representative of
+Supercell or Tencent. Names identify compatibility only.

@@ -1,0 +1,40 @@
+{
+  "sourceInputs": {
+    "android/cn/crhistory/player/ExampleActivity.java": "7e54227a988ed4149f1b8271eb91405e9235901ce16f023632470a581227581e",
+    "android/cn/crhistory/player/ExternalAssets.java": "6a594a49499d0ab5274d455296ae3683279f9728470d1850ecb38ea8966a9206",
+    "android/cn/crhistory/player/LocalResources.java": "e6cfb4063a09dd8025d1243539b9dc462e216e75689bba880629a61d3ff04a5b",
+    "android/cn/crhistory/player/ReplayBootstrap.java": "896461b7cd8ac650d51ae37637967ec093808d998c84f1ededc8dc6081263b37",
+    "android/cn/crhistory/player/ReplayCompatibility.java": "9173e677a61dba2bf63308cff4e04d1ecdb138cd82aeb8659d4b83aed59039cd",
+    "android/cn/crhistory/player/ReplayEntry.java": "4baf39acec9693a621fd0b482aa0136530242efa86fceba68cfaa41e88371e38",
+    "android/cn/crhistory/player/ReplayResourcePack.java": "a135b27e6e4db55740cc8da1ce486d70848c788ef1ec7949ed9728bd9243e5a3",
+    "android/cn/crhistory/player/ReplayRules.java": "9981b8b00504ad0d07df1710d1bcc54972f6c59f7b63b99950f94a8cfa12e00f",
+    "android/cn/crhistory/player/ReplayRun.java": "679609e62828f1afd855d8c70f2a9629a9e8f896dcc5004087682198d02c053d",
+    "example/AndroidManifest.xml": "f0a37064e6e6e876720e949f504dadfdad9f18c3d32413a910047a8e43da97b5",
+    "metadata/public_resources.json": "c892c4755dbb1d0786bb946c4dca574a1bcfd42695f1b52bb48cbad5e688f83c",
+    "metadata/rules_aliases.json": "6941944809b0082ce1c019411dccde0d25f2f06a824918f613c1422e853112f8",
+    "metadata/rules_registry.json": "37e1cdee755d5e815945bec90c6daa7ab044f31c763a9ca5f40764829152ca8f",
+    "metadata/supported_engine.json": "07cf2aee57b42d8d4d9e062aaec99d5e76cacaacecd3fb3fb6323eeea60a45fa",
+    "native/replay_bridge.cpp": "d399ccd3eb108b8f36f2d5e9487e0dc805a40763cc4b26908771e230ee0223ae",
+    "tools/build.py": "6d26a0b49686edf2642df6ca01519145f76897c890480b62c2137190f32164cc",
+    "tools/host_patch.py": "5bbee490f49cb16a820c999b1a514097f56306563c2845fda52f5480ce964926",
+    "tools/official_core.py": "b4d7e12606e9f4b33b53035277311eba487d95c847ae1dd593f368c37085c2e2",
+    "tools/official_engine.py": "696e3006f856d428c4b427399c362b4b8aa642dcfbf3cd45655b7d98d5328441",
+    "tools/replay_content.py": "105cce3b47c911983e386d817decd8cf26d1c90ce6e19dc54ab909c6c61c7c93",
+    "tools/replay_rules.py": "91404fcc7c04ad23bce1794db08408612a8ca8603660335d208fd43e663e7a03",
+    "tools/replay_visuals.py": "99598c84df7da65afa074700c9c421ddc917133157a980a8dadc3de1fa95adae",
+    "tools/resource_archive.py": "497c9995d16d820f979a480ab38c138b7f0ed561635e83e86b772b0042cc52ae"
+  },
+  "apkSha256": "21d68d4919c1c0a98a84b53fb71a535b7a3142b4d7925c0730e6091802d7bc67",
+  "apkBytes": 101526222,
+  "coreSha256": "fe89f0eaf708e7dc270f971d06bdf36d99ac11c2478d370a9ddfd6025e2fd93b",
+  "resourceRegistration": {
+    "id": "cn-38.4.2-content-38.4.5-bridge1",
+    "engine": "cn-38.4.2-content-38.4.5-bridge1",
+    "bytes": 1446719022,
+    "sha256": "9d7566c1f601e3058cdb62ac64fc54f2ff8fdab62bc39712ce2d1774572fb776",
+    "runtimeBytes": 120401257
+  },
+  "resourceFiles": 11707,
+  "publicReleaseApproved": false,
+  "devicePlaybackVerified": false
+}
