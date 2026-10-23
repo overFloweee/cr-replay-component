@@ -13,12 +13,18 @@ The component is extracted from fixed main `d815abb34bbb3847ca2fec95df3096059ea7
 | Native terminal result | 12 synthetic checks passed against the actual bridge `result()` body |
 | Archive builder | Synthetic content preservation, stable bytes across timestamps/order/permissions, compression preservation, code exclusion and changed-content identity passed |
 | Python optimization | `-O` and `-OO` rejected before core recovery; all original integrity assertions retained |
-| Device playback | Pending. No emulator was present; creating a temporary AVD requires the user's explicit approval under the machine's existing rule. The creation request is pending. No device pass is claimed. |
+| Device playback | Deferred at the user's request while reviewing source scope. One temporary AVD was authorized and started, then stopped and deleted before APK installation or playback. No device pass is claimed; device playback is not a condition of this source-review round. |
 | Lifecycle and fidelity | New local-host launch/return/restart and real terminal playback remain pending device verification. Matching terminal crowns would not prove complete process fidelity. |
 | Distribution | Source-only private repository. [Source audit](evidence/source-audit.json) records the staged source scan; the final object scan is retained locally. No generated APK/pack/game input/replay/key/old Git history is included. |
 
 The local build demonstrates a complete build with the exact external materials already present on the verification machine. A fresh user cannot reproduce playback from this repository alone: runtime snapshots, historical materials and a registered animation input must be supplied with the necessary rights. Their capture-time APK/process provenance is not complete. This is an explicit remaining limit, not a downloadable dependency bundled into the source release.
 
 The example retains main's bounds and process-isolation mechanics. It does not inherit the later research branch's all-material pinning work, authorization/download business cases or larger multi-version validation. No changes are being merged back to the product main or deployed.
+
+## Source-scope review follow-up
+
+The [proposed public scope](public-scope.md) lists the implementation, metadata, tests and documents intended for public review, and separates them from the external inputs and generated outputs. The README and provenance now explicitly identify the native hook signatures, offsets and client-modification scripts. The three deferred scripts remain included as source with their input/output boundaries and lineage recorded. This follow-up changes documentation and review evidence only; the existing build's 23 source-input hashes still match, and all 28 extraction mappings were rechecked against the fixed source commit.
+
+The source check and its precise scope are recorded in [source review evidence](evidence/source-review.json). Its candidate-file list excludes that evidence file itself to avoid a self-referential digest. Host tests and the full APK build were not repeated for documentation-only changes. Device playback, lifecycle behavior on Android and complete gameplay fidelity remain unverified for this independent host. No public visibility change, release or binary upload is part of this review.
 
 The final local APK is 101,526,222 bytes, SHA-256 `21d68d4919c1c0a98a84b53fb71a535b7a3142b4d7925c0730e6091802d7bc67`. The generated pack is 1,446,719,022 bytes, SHA-256 `9d7566c1f601e3058cdb62ac64fc54f2ff8fdab62bc39712ce2d1774572fb776`, with 11,707 indexed files and 120,401,257 bytes in the nested update. Both remain ignored local outputs. [Host check output](evidence/host-checks.txt) contains the final passing results; [source comparison](evidence/source-comparison.json) identifies the exact upstream files examined.

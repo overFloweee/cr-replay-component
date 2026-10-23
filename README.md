@@ -4,6 +4,8 @@ Private review extraction of the Android native replay component from `cr-battle
 
 The source code is licensed under Apache-2.0. This repository contains the Java integration, native bridge, local example host, packaging tools and synthetic checks. Game binaries, game data, runtime dumps, real replays, signing keys and generated APKs are supplied locally and are excluded from Git. See [NOTICE](NOTICE) and [provenance](docs/provenance.md).
 
+The integration targets one registered game core. Its source includes fixed addresses and structure offsets, short instruction signatures used to check hook targets, inline hooks, and scripts that generate or patch the supplied client's smali. These implementation details are part of the proposed source release. Full game libraries, decoded client trees and generated derivatives remain external or local build outputs. The complete [proposed public scope](docs/public-scope.md) is available in Chinese for review.
+
 This is an unofficial project, not affiliated with or endorsed by Supercell or Tencent. The example is a local development host. No network or account service is configured.
 
 ## Build
